@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteTest">
+  <test name="FirstTest">
+  <parameter name="os" value="Windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browser_version" value="11.0"/>
+    <classes>
+      <class name="com.test.proposify.SeleniumGrid"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

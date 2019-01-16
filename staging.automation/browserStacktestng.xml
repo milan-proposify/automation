@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteTest">
+	<test name="FirstTest">
+		<parameter name="os" value="Windows" />
+		<parameter name="os_version" value="10" />
+		<parameter name="browser" value="Edge" />
+		<parameter name="browser_version" value="15.0" />
+		<classes>
+			<class name="com.test.proposify.UserRegister_TestCases" />
+			<class name="com.test.proposify.Proposal_Settings_Test_Cases" />
+			<class name="com.test.proposify.Editor_FeeTable_TestCAses" />
+			<class name="com.test.proposify.Editor_shapes_TestCases" />
+			<class
+				name="com.test.proposify.Editor_PageFlowFeeTable_TestCases" />
+			<class name="com.test.proposify.Proposal_Settings_Test_Cases" />
+			<class name="com.test.proposify.Editor_Section_TestCases" />
+			<class name="com.test.proposify.Editor_Section_TestCases" />
+			<class name="com.test.proposify.EditorTextArea_TestCases" />
+			<class name="com.test.proposify.Editor_Video_TestCases" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

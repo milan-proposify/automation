@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite-3" parallel="tests">
+  <test name="Chrometest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.proposify.TestCases_250PlanUpgradeand1000yearlyUpgrade"/>
+    </classes>
+  </test> <!-- Test -->
+
+    <test name="safaritest">
+  <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.test.proposify.TestCases_250PlanUpgradeand1000yearlyUpgrade"/>
+      <class name="com.test.proposify.AfterSuiteExec"/>
+
+    </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
